@@ -1,0 +1,116 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"     content="IE=edge">
+  <meta hname="viewport"content="width=device-width, initial-scale=1.0">
+  <title> LikeMuShoes </title>
+</head>
+<body>
+ <main>
+    <header><h1>LikeMuShoes</h1>
+    <p>Gently used floor model sneakers and discontinued styles at our lowest prices of the year. Get 'em before they're gone!</p>
+</header>
+<section>
+    <form>
+        First Name <input type="text" name="fname" /><br>
+        Last Name <input type="text" name="lname" />
+        </form>
+        <p>What's your favorite shoes ?</p>
+        <form >
+<input type="radio" name="ayakkabi" id="converse">Converse 
+<input type="radio" name="ayakkabi" id="adidas">Adidas
+<input type="radio" name="ayakkabi" id="new_balance">New Balance
+ <input type="submit" value="Submit" >    
+</form>
+</section>
+<hr>
+<article>
+<h3>Converse</h3>
+<figure>
+    <img src="https://images.unsplash.com/photo-1578269174432-a8073d86c2e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Gently used floor model shoes" height="250" width="250" />
+   <figcaption>Photo by Maksim Larin</figcaption>
+</figure>
+<p class="description">
+    Suede fabric pointed toe stylish cut front low heel sharp on-trend toe point raised heel drop sides unique silhouette.</p>
+<p class="price">$30 USD</p>
+<p class="special">Free Shipping!</p>
+<form>
+    Size <select name="size" id="size-select">
+		<option value=""></option>
+		<option value="6">6</option>
+		<option value="6.5">6.5</option>
+		<option value="7" disabled>7</option>
+		<option value="7.5">7.5</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="9.5" disabled>9.5</option>
+		<option value="10">10</option>
+	</select>
+    Color <select name="color" id="color">
+        <option value=""></option>
+        <option value="blue">Blue</option>
+        <option value="Red">Red</option>
+        <option value="Black">Black</option>
+    </select>
+    Quantity <select name="quantity" id="Quantity">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <button type="button">Add to Cart</button>
+</form>
+</article>
+<hr>
+<article class="item">
+	<h3>New Balance</h3>
+	<figure>
+		<img src="https://images.unsplash.com/photo-1539185441755-769473a23570" alt="Gently used floor model new balance" height="250" width="250" />
+		<figcaption>Photo by Felipe Laqium</figcaption>
+	</figure>
+	<p>
+		Suede fabric pointed toe stylish cut front low heel sharp on-trend toe point raised heel drop sides unique silhouette.</p>
+	<p>$45 USD</p>
+	<p><strong>Just One Left!</strong> </p>
+    <form action="kayit.php" method="get">
+        Size <select name="size" id="size-select">
+            <option value=""></option>
+            <option value="6">6</option>
+            <option value="6.5" disabled>6.5</option>
+            <option value="7" disabled>7</option>
+            <option value="7.5" disabled>7.5</option>
+            <option value="8"disabled>8</option>
+            <option value="9"disabled>9</option>
+            <option value="9.5" disabled>9.5</option>
+            <option value="10"disabled>10</option>
+        </select>
+        Color <select name="color" id="color">
+            <option value=""></option>
+            <option value="Red-blue">white with red and blue trim</option>
+            <option value="Black "disabled>white with red and blue trim</option>
+        </select>
+        Quantity <select name="quantity" id="Quantity">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2 "disabled>2</option>
+            <option value="3 "disabled>3</option>
+            <option value="4 "disabled>4</option>
+            <option value="5 "disabled>5</option>
+        </select>
+        <button type="button">Add to Cart</button>
+    </form>
+    </article>
+    <hr>
+    <footer>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </nav>
+    </footer>
+</main>
+</body>
+</html>
